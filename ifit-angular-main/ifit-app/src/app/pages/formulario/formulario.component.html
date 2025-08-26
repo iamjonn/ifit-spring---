@@ -1,0 +1,84 @@
+<section class="max-w-3xl mx-auto bg-white p-6 mt-10 rounded shadow">
+  <h2 class="text-2xl font-bold text-orange-600 mb-4">Monte seu Treino Personalizado</h2>
+
+  <form #formRef="ngForm" (ngSubmit)="gerarTreino(formRef)" novalidate class="space-y-4">
+
+    <label class="block text-gray-700 font-medium mb-2">Nome</label>
+    <input type="text" name="nome" [(ngModel)]="form.nome" required #nome="ngModel" placeholder="Nome"
+      class="w-full border px-3 py-2 rounded" />
+    <div *ngIf="nome.invalid && nome.touched" class="text-red-600 text-sm">Nome é obrigatório.</div>
+
+    <label class="block text-gray-700 font-medium mb-2">Email</label>
+    <input type="email" name="email" [(ngModel)]="form.email" required email #email="ngModel" placeholder="Email"
+      class="w-full border px-3 py-2 rounded" />
+    <div *ngIf="email.invalid && email.touched" class="text-red-600 text-sm">
+      {{ email.errors?.['required'] ? 'Email é obrigatório.' : 'Email inválido.' }}
+    </div>
+
+    <label class="block text-gray-700 font-medium mb-2">Idade</label>
+    <input type="number" name="idade" [(ngModel)]="form.idade" required #idade="ngModel" placeholder="Idade"
+      class="w-full border px-3 py-2 rounded" />
+    <div *ngIf="idade.invalid && idade.touched" class="text-red-600 text-sm">Idade é obrigatória.</div>
+    <div *ngIf="form.idade < 16 && idade.touched" class="text-red-600 text-sm">A idade deve ser maior ou igual a 16 anos.</div>
+    <div *ngIf="form.idade > 150 && idade.touched" class="text-red-600 text-sm">A idade deve ser menor que 150 anos.</div>
+
+    <label class="block text-gray-700 font-medium mb-2">Objetivo</label>
+    <select name="objetivo" [(ngModel)]="form.objetivo" required #objetivo="ngModel"
+      class="w-full border px-3 py-2 rounded">
+      <option value="" disabled selected>Objetivo</option>
+      <option value="Criar massa muscular">Hipertrofia</option>
+      <option value="Emagrecer">Emagrecimento</option>
+      <option value="Melhorar a saúde">Saúde geral</option>
+    </select>
+    <div *ngIf="objetivo.invalid && objetivo.touched" class="text-red-600 text-sm">Escolha um objetivo.</div>
+
+    <label class="block text-gray-700 font-medium mb-2">Frequência Semanal</label>
+    <select name="frequencia" [(ngModel)]="form.frequencia" required #frequencia="ngModel"
+      class="w-full border px-3 py-2 rounded">
+      <option value="" disabled selected>Frequência semanal</option>
+      <option value="2">2x</option>
+      <option value="3">3x</option>
+      <option value="5">5x</option>
+    </select>
+    <div *ngIf="frequencia.invalid && frequencia.touched" class="text-red-600 text-sm">Informe a frequência semanal.</div>
+
+    <label class="block text-gray-700 font-medium mb-2">Nível de Treino</label>
+    <select name="nivel" [(ngModel)]="form.nivel" required #nivel="ngModel"
+      class="w-full border px-3 py-2 rounded">
+      <option value="" disabled selected>Nível</option>
+      <option value="iniciante">Iniciante</option>
+      <option value="intermediario">Intermediário</option>
+      <option value="avancado">Avançado</option>
+    </select>
+    <div *ngIf="nivel.invalid && nivel.touched" class="text-red-600 text-sm">Escolha um nível.</div>
+
+    <label class="block text-gray-700 font-medium mb-2">Local de Treino</label>
+    <select name="local" [(ngModel)]="form.local" required #local="ngModel"
+      class="w-full border px-3 py-2 rounded">
+      <option value="" disabled selected>Local de treino</option>
+      <option value="Academia">Academia</option>
+      <option value="Em casa">Em casa</option>
+    </select>
+    <div *ngIf="local.invalid && local.touched" class="text-red-600 text-sm">Informe o local do treino.</div>
+
+    <label class="block text-gray-700 font-medium mb-2">Parte Lesionada (se houver)</label>
+    <select name="lesao" [(ngModel)]="form.lesao" required #lesao="ngModel"
+      class="w-full border px-3 py-2 rounded">
+      <option value="" disabled selected>Parte lesionada</option>
+      <option value="Tórax">Tórax</option>
+      <option value="Costas">Costas</option>
+      <option value="Pernas">Pernas</option>
+      <option value="nenhuma">Nenhuma</option>
+    </select>
+    <div *ngIf="lesao.invalid && lesao.touched" class="text-red-600 text-sm">Selecione a parte lesionada.</div>
+
+    <button type="submit"
+      [disabled]="formRef.invalid || form.idade! < 16 || form.idade! > 150"
+      class="bg-orange-600 text-white px-6 py-2 rounded w-full font-bold">
+      Gerar Treino
+    </button>
+
+    <p *ngIf="mensagemSucesso" class="text-green-600 mt-2">{{ mensagemSucesso }}</p>
+    <p *ngIf="mensagemErro" class="text-red-600 mt-2">{{ mensagemErro }}</p>
+  </form>
+</section>

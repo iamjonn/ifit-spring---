@@ -1,0 +1,702 @@
+{
+  "usuarios": [
+    {
+      "id": "400b",
+      "nome": "Luan Pimenta",
+      "email": "luan@email.com",
+      "objetivo": "Criar massa muscular",
+      "idade": 20,
+      "frequencia": "5",
+      "nivel": "intermediario",
+      "lesao": "nenhuma",
+      "local": "Academia",
+      "treino": [
+        {
+          "parte": "Tórax",
+          "exercicios": [
+            26,
+            22,
+            31,
+            32,
+            29,
+            24
+          ]
+        },
+        {
+          "parte": "Costas",
+          "exercicios": [
+            50,
+            43,
+            45,
+            49,
+            46,
+            42
+          ]
+        },
+        {
+          "parte": "Pernas",
+          "exercicios": [
+            4,
+            3,
+            5,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "parte": "Tórax",
+          "exercicios": [
+            24,
+            31,
+            32,
+            22,
+            26
+          ]
+        },
+        {
+          "parte": "Costas",
+          "exercicios": [
+            47,
+            45,
+            48,
+            43,
+            42
+          ]
+        }
+      ]
+    }
+  ],
+  "planos": [
+    {
+      "id": "1",
+      "nome": "Plano Essencial",
+      "preco": 49.99,
+      "recursos": [
+        "Acesso à academia",
+        "Acompanhamento online"
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Plano Premium",
+      "preco": 79.99,
+      "recursos": [
+        "Acesso à academia",
+        "Acompanhamento online",
+        "Personal Trainer 2x/semana"
+      ]
+    }
+  ],
+  "exercicios": {
+    "Pernas": [
+      {
+        "id": 1,
+        "nome": "Agachamento",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_agachamento",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 2,
+        "nome": "Levantamento Terra",
+        "series": 4,
+        "repeticoes": 8,
+        "videoUrl": "url_do_video_de_levantamento_terra",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 3,
+        "nome": "Agachamento Sumô",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_agachamento_sumo",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 4,
+        "nome": "Stiff",
+        "series": 4,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_stiff",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 5,
+        "nome": "Afundo",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_afundo",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 6,
+        "nome": "Agachamento Frontal",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_agachamento_frontal",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 7,
+        "nome": "Agachamento Livre",
+        "series": 4,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_agachamento_livre",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 8,
+        "nome": "Afundo no Smith",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_afundo_no_smith",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 9,
+        "nome": "Agachamento Búlgaro",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_agachamento_bulgaro",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 10,
+        "nome": "Panturrilha no Leg Press",
+        "series": 4,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_panturrilha_no_leg_press",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 11,
+        "nome": "Bicicleta no Ar",
+        "series": 3,
+        "repeticoes": 20,
+        "videoUrl": "url_do_video_de_bicicleta_no_ar",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 12,
+        "nome": "Elevação de Gêmeos Sentado",
+        "series": 4,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_elevacao_de_gemelos_sentado",
+        "local": "Em casa",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 13,
+        "nome": "Saltos Alternados",
+        "series": 3,
+        "repeticoes": 20,
+        "videoUrl": "url_do_video_de_saltos_alternados",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 14,
+        "nome": "Leg Press 45°",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_leg_press_45",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 15,
+        "nome": "Panturrilha em Máquina Sentado",
+        "series": 4,
+        "repeticoes": 20,
+        "videoUrl": "url_do_video_de_panturrilha_em_maquina_sentado",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 16,
+        "nome": "Afundo com Barra",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_afundo_com_barra",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 17,
+        "nome": "Leg Press Horizontal",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_leg_press_horizontal",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 18,
+        "nome": "Panturrilha em Máquina em Pé",
+        "series": 4,
+        "repeticoes": 20,
+        "videoUrl": "url_do_video_de_panturrilha_em_maquina_em_pe",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 19,
+        "nome": "Afundo Lateral com Halteres",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_afundo_lateral_com_halteres",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 20,
+        "nome": "Cadeira Flexora",
+        "series": 4,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_cadeira_flexora",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 21,
+        "nome": "Glúteo Máquina",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_gluteo_maquina",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      }
+    ],
+    "Tórax": [
+      {
+        "id": 22,
+        "nome": "Supino Reto",
+        "series": 3,
+        "repeticoes": 8,
+        "videoUrl": "url_do_video_de_supino_reto",
+        "local": "Em casa",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 23,
+        "nome": "Flexão de Braço",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_flexao_de_braco",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 24,
+        "nome": "Desenvolvimento de Ombro",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_desenvolvimento_de_ombro",
+        "local": "Em casa",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 25,
+        "nome": "Flexão de Braço Inclinada",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_flexao_de_braco_inclinada",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 26,
+        "nome": "Elevação Frontal",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_elevacao_frontal",
+        "local": "Em casa",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 27,
+        "nome": "Flexão de Braço Diamante",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_flexao_de_braco_diamante",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 28,
+        "nome": "Flexão de Braço Militar",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_flexao_de_braco_militar",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 29,
+        "nome": "Tríceps na Polia Alta",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_triceps_na_polia_alta",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 30,
+        "nome": "Flexão de Braço com Pegada Fechada",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_flexao_de_braco_com_pegada_fechada",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 31,
+        "nome": "Tríceps Testa",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_triceps_testa",
+        "local": "Em casa",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 32,
+        "nome": "Extensão de Tríceps na Corda",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_extensao_de_triceps_na_corda",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 33,
+        "nome": "Flexão de Braço com Apoio",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_flexao_de_braco_com_apoio",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 34,
+        "nome": "Supino Declinado",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_supino_declinado",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 35,
+        "nome": "Elevação Lateral Invertida",
+        "series": 4,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_elevacao_lateral_invertida",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 36,
+        "nome": "Tríceps Pulley",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_triceps_pulley",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 37,
+        "nome": "Supino Declinado",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_supino_declinado",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 38,
+        "nome": "Elevação Lateral Invertida",
+        "series": 4,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_elevacao_lateral_invertida",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 39,
+        "nome": "Tríceps Pulley",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_triceps_pulley",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 40,
+        "nome": "Desenvolvimento Militar",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_desenvolvimento_militar",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 41,
+        "nome": "Tríceps Mergulho",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_triceps_mergulho",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      }
+    ],
+    "Costas": [
+      {
+        "id": 42,
+        "nome": "Puxada na Barra Fixa",
+        "series": 4,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_puxada_na_barra_fixa",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 43,
+        "nome": "Cadeira Extensora",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_cadeira_extensora",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 44,
+        "nome": "Rosca Direta com Barra",
+        "series": 3,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_rosca_direta_com_barra",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 45,
+        "nome": "Remada Curvada",
+        "series": 4,
+        "repeticoes": 10,
+        "videoUrl": "url_do_video_de_remada_curvada",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 46,
+        "nome": "Rosca Martelo",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_rosca_martelo",
+        "local": "Em casa",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 47,
+        "nome": "Remada Cavalinho",
+        "series": 4,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_remada_cavalinho",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 48,
+        "nome": "Barra-fixa",
+        "series": 4,
+        "repeticoes": 8,
+        "videoUrl": "url_do_video_de_barra_fixa",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 49,
+        "nome": "Rosca Concentrada",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_rosca_concentrada",
+        "local": "Academia",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 50,
+        "nome": "Rosca Inversa",
+        "series": 3,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_rosca_inversa",
+        "local": "Em casa",
+        "objetivo": "Criar massa muscular"
+      },
+      {
+        "id": 51,
+        "nome": "Abdominal na Prancha",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_abdominal_na_prancha",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 52,
+        "nome": "Prancha Lateral",
+        "series": 3,
+        "repeticoes": "45 segundos (cada lado)",
+        "videoUrl": "url_do_video_de_prancha_lateral",
+        "local": "Em casa",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 53,
+        "nome": "Abdominal Infra",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_abdominal_infra",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 54,
+        "nome": "Abdominal Supra",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_abdominal_supra",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 55,
+        "nome": "Abdominal Canivete",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_abdominal_canivete",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 56,
+        "nome": "Prancha com Elevação de Braço",
+        "series": 3,
+        "repeticoes": "45 segundos",
+        "videoUrl": "url_do_video_de_prancha_com_elevacao_de_braco",
+        "local": "Em casa",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 57,
+        "nome": "Prancha com Elevação de Perna",
+        "series": 3,
+        "repeticoes": "45 segundos",
+        "videoUrl": "url_do_video_de_prancha_com_elevacao_de_perna",
+        "local": "Em casa",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 58,
+        "nome": "Prancha com Rotação",
+        "series": 3,
+        "repeticoes": "45 segundos",
+        "videoUrl": "url_do_video_de_prancha_com_rotacao",
+        "local": "Em casa",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 59,
+        "nome": "Abdominal Oblíquo",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_abdominal_obliquo",
+        "local": "Em casa",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 60,
+        "nome": "Remada Alta",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_remada_alta",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 61,
+        "nome": "Abdominal Bicicleta",
+        "series": 4,
+        "repeticoes": 20,
+        "videoUrl": "url_do_video_de_abdominal_bicicleta",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 62,
+        "nome": "Rosca Scott",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_rosca_scott",
+        "local": "Academia",
+        "objetivo": "Emagrecer"
+      },
+      {
+        "id": 63,
+        "nome": "Remada Alta",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_remada_alta",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 64,
+        "nome": "Abdominal Russo",
+        "series": 4,
+        "repeticoes": 20,
+        "videoUrl": "url_do_video_de_abdominal_russo",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 65,
+        "nome": "Rosca Zottman",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_rosca_zottman",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 66,
+        "nome": "Puxada Frontal na Polia Alta",
+        "series": 4,
+        "repeticoes": 12,
+        "videoUrl": "url_do_video_de_puxada_frontal_na_polia_alta",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      },
+      {
+        "id": 67,
+        "nome": "Rosca Direta com Halteres",
+        "series": 3,
+        "repeticoes": 15,
+        "videoUrl": "url_do_video_de_rosca_direta_com_halteres",
+        "local": "Academia",
+        "objetivo": "Melhorar a saúde"
+      }
+    ]
+  }
+}

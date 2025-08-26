@@ -1,0 +1,60 @@
+<section class="bg-orange-600 text-white py-20 text-center">
+  <h1 class="text-4xl font-bold mb-4">Transforme seu corpo com a gente</h1>
+  <p class="text-lg mb-6 max-w-2xl mx-auto">Treinos personalizados, profissionais qualificados e estrutura moderna para todos os objetivos.</p>
+  <a routerLink="/formulario" class="bg-white text-orange-600 px-6 py-3 rounded font-semibold hover:bg-orange-100 transition">
+    Comece agora
+  </a>
+</section>
+
+<section class="py-16 px-10 bg-gray-100">
+  <h2 class="text-3xl font-bold text-center mb-10 text-orange-600">Por que escolher a nossa academia?</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+    <div class="bg-white rounded-xl p-6 shadow">
+      <h3 class="text-xl font-semibold mb-2">Estrutura Moderna</h3>
+      <p>Equipamentos de última geração, ambientes climatizados e acessibilidade total.</p>
+    </div>
+    <div class="bg-white rounded-xl p-6 shadow">
+      <h3 class="text-xl font-semibold mb-2">Personal Trainers</h3>
+      <p>Profissionais certificados prontos para te acompanhar em cada etapa.</p>
+    </div>
+    <div class="bg-white rounded-xl p-6 shadow">
+      <h3 class="text-xl font-semibold mb-2">Planos Flexíveis</h3>
+      <p>Opções mensais, trimestrais e anuais que cabem no seu bolso.</p>
+    </div>
+  </div>
+</section>
+
+<section class="p-10">
+  <h2 class="text-3xl font-bold text-orange-600 mb-6 text-center">Planos</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    @for (plano of planos(); track plano.nome) {
+      <app-planos
+        [nome]="plano.nome"
+        [descricao]="plano.descricao"
+        [preco]="plano.preco"
+      ></app-planos>
+    }
+  </div>
+</section>
+
+<section class="bg-white py-16 px-10">
+  <h2 class="text-3xl font-bold text-center text-orange-600 mb-10">Quem já treina com a gente</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+    <div class="bg-gray-100 p-6 rounded-xl shadow">
+      <p class="text-gray-800 italic">"A estrutura é incrível, os professores são muito atenciosos e o aplicativo me ajuda muito nos treinos!"</p>
+      <p class="mt-4 font-semibold text-right">– Carla M.</p>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-xl shadow">
+      <p class="text-gray-800 italic">"O plano anual vale super a pena. Já perdi 10kg e ganhei muita disposição!"</p>
+      <p class="mt-4 font-semibold text-right">– Bruno S.</p>
+    </div>
+  </div>
+</section>
+
+<section class="text-center py-20 bg-orange-600 text-white">
+  <h2 class="text-3xl font-bold mb-4">Pronto para começar?</h2>
+  <p class="mb-6">Monte seu plano de treino personalizado com base no seu objetivo.</p>
+  <a routerLink="/formulario" class="bg-white text-orange-600 px-6 py-3 rounded font-semibold hover:bg-orange-100 transition">
+    Monte seu treino agora
+  </a>
+</section>
