@@ -1,0 +1,16 @@
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/IfitSpringApplication.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/controller/AdminController.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/controller/UsuarioController.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/controller/UsuarioPublicController.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/dto/LoginDTO.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/dto/RegisterDTO.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/dto/TreinoDTO.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/enums/Role.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/model/Treino.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/model/Usuario.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/repository/TreinoRepository.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/repository/UsuarioRepository.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/security/SecurityConfig.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/service/TreinoService.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/service/UserDetailsServiceImpl.java
+/home/luan/Documentos/projetos/ifit-spring/src/main/java/br/edu/ifpb/ifitspring/service/UsuarioService.java

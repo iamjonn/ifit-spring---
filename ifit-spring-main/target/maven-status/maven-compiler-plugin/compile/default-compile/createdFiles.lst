@@ -1,0 +1,16 @@
+br/edu/ifpb/ifitspring/model/Usuario.class
+br/edu/ifpb/ifitspring/service/UsuarioService.class
+br/edu/ifpb/ifitspring/dto/RegisterDTO.class
+br/edu/ifpb/ifitspring/dto/LoginDTO.class
+br/edu/ifpb/ifitspring/controller/UsuarioController.class
+br/edu/ifpb/ifitspring/controller/AdminController.class
+br/edu/ifpb/ifitspring/enums/Role.class
+br/edu/ifpb/ifitspring/service/UserDetailsServiceImpl.class
+br/edu/ifpb/ifitspring/repository/UsuarioRepository.class
+br/edu/ifpb/ifitspring/service/TreinoService.class
+br/edu/ifpb/ifitspring/controller/UsuarioPublicController.class
+br/edu/ifpb/ifitspring/repository/TreinoRepository.class
+br/edu/ifpb/ifitspring/dto/TreinoDTO.class
+br/edu/ifpb/ifitspring/security/SecurityConfig.class
+br/edu/ifpb/ifitspring/model/Treino.class
+br/edu/ifpb/ifitspring/IfitSpringApplication.class
