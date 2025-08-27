@@ -1,0 +1,31 @@
+16:58:02,331  INFO Util:28 - ----conectar banco - lendo arquivo de propriedades 
+16:58:02,338  INFO Util:35 - sgbd => postgresql
+16:58:02,338  INFO Util:36 - banco => locadora
+16:58:02,339  INFO Util:37 - ip => localhost
+16:58:02,339  INFO Util:42 - ----configurando postgresql
+16:58:02,388 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+16:58:02,586  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: hibernate-postgresql]
+16:58:02,736  INFO Version:44 - HHH000412: Hibernate ORM core version 6.6.5.Final
+16:58:02,814 DEBUG RegionFactoryInitiator:122 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+16:58:02,815  INFO RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+16:58:03,226  WARN pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+16:58:03,731  INFO pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/locadora]
+	Database driver: org.postgresql.Driver
+	Database version: 13.2
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+16:58:05,020  INFO JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:58:05,038  INFO access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2b65503c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:58:12,242 DEBUG SQL:135 - select u1_0.nome,u1_0.senha from Usuario u1_0 where u1_0.nome=?
+16:58:12,244 TRACE bind:24 - binding parameter (1:VARCHAR) <- [aaaa]
+16:58:14,137 DEBUG SQL:135 - select u1_0.nome,u1_0.senha from Usuario u1_0 where u1_0.nome=?
+16:58:14,137 TRACE bind:24 - binding parameter (1:VARCHAR) <- [aaaa]
+16:58:14,168 DEBUG SQL:135 - insert into Usuario (senha,nome) values (?,?)
+16:58:14,170 TRACE bind:24 - binding parameter (1:VARCHAR) <- [aaaa]
+16:58:14,170 TRACE bind:24 - binding parameter (2:VARCHAR) <- [aaaa]
+16:58:22,139 DEBUG SQL:135 - select u1_0.nome,u1_0.senha from Usuario u1_0 where u1_0.nome=?
+16:58:22,140 TRACE bind:24 - binding parameter (1:VARCHAR) <- [aaaa]
+16:58:22,432  INFO Util:71 - ----desconectar banco
